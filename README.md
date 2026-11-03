@@ -95,13 +95,6 @@ Open your browser and visit:
 5. The backend returns the image URL to the frontend.
 6. JavaScript displays the QR code without refreshing the webpage.
 
-## Future Improvements
-
-- Generate a unique filename for every QR code.
-- Add validation for invalid URLs.
-- Allow users to customize QR code colors and sizes.
-- Support downloading QR codes in different formats.
-- Add QR code history.
 
 ## Author
 
