@@ -35,12 +35,9 @@
                 <h2 class="font-semibold text-[#6b4f2a] mb-4">
                     Your QR Code
                 </h2>
-
                 <img id="qrImage"  class="w-48 h-48 mx-auto bg-white p-2 rounded-lg shadow-sm"alt="Generated QR Code" >
-
-                <a id="download"download="myqr.png" class="flex items-center justify-center gap-2    mt-5 w-full bg-[#647653] text-white font-semibold   p-3 rounded-xl hover:bg-[#506342] transition   cursor-pointer"> <span>↓</span>
+                <a id="download" download="myqr.png" class="flex items-center justify-center gap-2    mt-5 w-full bg-[#647653] text-white font-semibold   p-3 rounded-xl hover:bg-[#506342] transition   cursor-pointer"> <span>↓</span>
                     Download QR Code </a>
-
             </div>
         </div>
 
@@ -76,10 +73,8 @@
                 if (!response.ok || data.error) {
                     throw new Error(data.error || "Something went wrong.");
                 }
-
                 qrImage.src = data.imageUrl;
                 download.href = data.imageUrl;
-
                 result.classList.remove("hidden");
                 message.textContent = "QR code generated successfully!";
             } catch (error) {
