@@ -2,6 +2,10 @@
 
 Link2QR is a simple web application that converts a URL into a QR code. Users can enter a link, generate its QR code instantly, and download the generated image without reloading the webpage.
 
+## Live Demo
+
+[Open Link2QR](https://link-to-qr-b0lr.onrender.com)
+
 ## Features
 
 - Generate QR codes from URLs.
@@ -21,7 +25,7 @@ Link2QR is a simple web application that converts a URL into a QR code. Users ca
 - **Jinja2** – Rendering HTML templates
 - **QRCode** – Generating QR code images
 - **Uvicorn** – Running the FastAPI application
-- **time** - For generating timestamp
+- **time** – For generating timestamp
 
 ## Project Structure
 
@@ -95,7 +99,6 @@ Open your browser and visit:
 4. The generated image is saved in `static/qrcodes/`.
 5. The backend returns the image URL to the frontend.
 6. JavaScript displays the QR code without refreshing the webpage.
-
 
 ## Author
 
