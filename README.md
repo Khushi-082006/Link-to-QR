@@ -21,6 +21,7 @@ Link2QR is a simple web application that converts a URL into a QR code. Users ca
 - **Jinja2** – Rendering HTML templates
 - **QRCode** – Generating QR code images
 - **Uvicorn** – Running the FastAPI application
+- **time** - For generating timestamp
 
 ## Project Structure
 
